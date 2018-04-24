@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../Header';
 import AboutMe from '../AboutMe';
-import './App.css';
+import styles from './App.scss';
 
 class App extends React.Component {
   render() {
