@@ -1,0 +1,59 @@
+@import '../../styles/variables.scss';
+
+.MenuIcon {
+  display: block;
+  margin: 0 auto;
+  width: 60px;
+}
+
+
+.st0 {
+  fill: $teal;
+  fill-opacity: 0;
+}
+
+.st1 {
+  fill:#F7F9F9;
+}
+
+.st2 {
+  fill: none;
+  stroke:#F7F9F9;
+  stroke-width: 4;
+  stroke-miterlimit: 10;
+}
+
+.st3 {
+  fill:#F7F9F9;
+  stroke:#F7F9F9;
+  stroke-width: 4;
+  stroke-miterlimit: 10;
+}
+
+.iconBackgroundOuter {
+  fill: rbga(0, 0, 0, 0);
+  fill-opacity: 0;
+}
+
+.iconBackgroundInner {
+  fill: none;
+  fill-opacity: 0;
+  stroke: $pale-blue;
+  stroke-miterlimit: 10;
+  stroke-width: 4;
+}
+
+.iconCircle__active {
+  fill: $pale-blue;
+  stroke: $pale-blue;
+  stroke-miterlimit: 10;
+  stroke-width: 4;
+}
+
+.iconCircle__deactive {
+  fill: rbga(0, 0, 0, 0);
+  fill-opacity: 0;
+  stroke: $pale-blue;
+  stroke-miterlimit: 10;
+  stroke-width: 4;
+}

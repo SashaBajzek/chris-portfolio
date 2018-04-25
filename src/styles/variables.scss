@@ -1,0 +1,35 @@
+// Typography
+  
+$mainFont: 'Dosis', sans-serif;
+
+$extraLightWeight: 200;
+$regularWeight: 400;
+$semiBoldWeight: 600;
+
+// Colors
+
+$charcoal: rgba(54, 53, 55, 1);
+
+$teal: rgba(34, 143, 159, 1); //#228f9f
+
+$medium-blue: rgba(135, 221, 225, 1);
+
+$pale-blue: rgba(220, 242, 249, 1);
+
+$white: rgba(247, 249, 249, 1);
+
+$black: rgba(2, 2, 10, 1);
+
+// Gradient
+
+@mixin background-gradient() {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#228f9f+0,228f9f+100&1+0,0.24+100 */
+  background: -moz-linear-gradient(top, rgba(34,143,159,1) 0%, rgba(34,143,159,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(34,143,159,1) 0%,rgba(34,143,159,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(34,143,159,1) 0%,rgba(34,143,159,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#228f9f', endColorstr='#3d228f9f',GradientType=0 ); /* IE6-9 */
+}
+
+//
+
+$max-width: 600px;
