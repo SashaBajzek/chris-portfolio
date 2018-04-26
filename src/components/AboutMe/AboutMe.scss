@@ -68,6 +68,28 @@
   width: 100%;
 }
 
+.list {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 10px 0 0;
+}
+
+.link {
+  display: block;
+}
+
+.link:focus,
+.link:hover {
+  background: $teal;
+  box-shadow: 0 0 5px 5px $teal;
+}
+
+.linkImage {
+  height: 40px;
+}
+
 @media (min-width: 575px) {
   .earthImage {
     height: 350px;
@@ -79,6 +101,10 @@
   .submarineImage {
     background: center / cover no-repeat url(./VirginiaApproach-home-lg.0461e1db.jpg);
     height: 300px;
+  }
+
+  .listItem img {
+    height: 50px;
   }
 }
 

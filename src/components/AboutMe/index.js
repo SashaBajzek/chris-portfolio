@@ -2,6 +2,9 @@ import React from 'react';
 import styles from './AboutMe.scss';
 import profile from './ChrisProfilePic.jpg';
 import ArrowSlim from '../ArrowSlim';
+import linkedInLogo from './In-White-54px-TM.png';
+import facebookLogo from './FB-f-Logo__white_50.png';
+import emailLogo from './email-64.png';
 
 const AboutMe = () => (
   <div className={styles.AboutMe}>
@@ -26,6 +29,24 @@ const AboutMe = () => (
         <p>
           <span className={styles.key}>Hobbies: </span>Learning, Electronics Design & Fabrication, Attending Space Events, Computer Building & Gaming.
         </p>
+        <ul className={styles.list}>
+          <li className={styles.listItem}>
+            <a  className={styles.link}href='https://www.linkedin.com/in/thefuturist/'>
+              <img className={styles.linkImage} src={linkedInLogo} alt='LinkedIn'/>
+            </a>
+          </li>
+          <li className={styles.listItem}>
+            <a className={styles.link} href='mailto:chris.s.ragsdale@gmail.com'>
+              <img className={styles.linkImage} src={emailLogo} alt='Email'/>
+            </a>
+          </li>
+          <li className={styles.listItem}>
+            <a className={styles.link} href='https://www.facebook.com/Chris415hi'>
+              <img className={styles.linkImage} src={facebookLogo} alt='Facebook'/>
+            </a>
+          </li>
+        </ul>
+          
       </div>
     </section>
     <section className={[styles.section, styles.sectionMoreInfo].join(' ')}>
