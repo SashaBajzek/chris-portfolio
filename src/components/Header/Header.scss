@@ -28,6 +28,7 @@
 
 .span {
   display: block;
+  font-size: 28px;
   margin: 0 auto;
   text-align: center;
 }
@@ -36,4 +37,24 @@
   display: block;
   font-size: 40px;
   font-weight: 200;
+  margin: 10px auto;
+}
+
+.carousel {
+  display: block;
+  font-size: 40px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+/* CSS-modules prevented this CSS from react-typist module to load */
+.carousel span {
+  display: inline-block;
+  opacity: 1;
+  animation: blink 1s linear infinite;
+  @keyframes blink {
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+  }
 }
