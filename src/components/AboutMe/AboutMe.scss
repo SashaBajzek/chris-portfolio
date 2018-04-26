@@ -63,13 +63,14 @@
 .earthImage {
   background: center / cover no-repeat url('./PlaceholderEarth-Cropped.png');
   height: 200px;
-  margin: 50px auto 0;
+  margin: 30px auto 0;
+  max-width: 1000px;
   width: 100%;
 }
 
 @media (min-width: 575px) {
   .earthImage {
-    height: 330px;
+    height: 350px;
     margin: 50px auto 0;
   }
 }
@@ -79,12 +80,10 @@
     background: center / cover no-repeat url(./VirginiaApproach-home-lg.0461e1db.jpg);
     height: 300px;
   }
+}
 
+@media (min-width: 1175px) {
   .earthImage {
-    height: 350px;
-    margin: 50px auto 0;
-    max-width: 1000px;
     width: 80%;
   }
-
 }
