@@ -61,19 +61,30 @@
 }
 
 .earthImage {
-  background: right / contain no-repeat url('./PlaceholderEarth.png');
+  background: center / cover no-repeat url('./PlaceholderEarth-Cropped.png');
   height: 200px;
-  margin: 0 auto;
+  margin: 50px auto 0;
   width: 100%;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 575px) {
+  .earthImage {
+    height: 330px;
+    margin: 50px auto 0;
+  }
+}
+
+@media (min-width: 975px) {
   .submarineImage {
     background: center / cover no-repeat url(./VirginiaApproach-home-lg.0461e1db.jpg);
     height: 300px;
   }
 
   .earthImage {
-    height: 300px;
+    height: 350px;
+    margin: 50px auto 0;
+    max-width: 1000px;
+    width: 80%;
   }
+
 }
