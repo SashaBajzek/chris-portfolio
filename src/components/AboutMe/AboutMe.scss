@@ -20,14 +20,14 @@
  
 }
 
-.link {
+.linkText {
   color: $medium-blue;
   font-weight: $semiBoldWeight;
   text-decoration: none;
 }
 
-.link:focus,
-.link:hover {
+.linkText:focus,
+.linkText:hover {
   color: $white;
 }
 

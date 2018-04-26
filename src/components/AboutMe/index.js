@@ -31,7 +31,7 @@ const AboutMe = () => (
         </p>
         <ul className={styles.list}>
           <li className={styles.listItem}>
-            <a  className={styles.link}href='https://www.linkedin.com/in/thefuturist/'>
+            <a className={styles.link}href='https://www.linkedin.com/in/thefuturist/'>
               <img className={styles.linkImage} src={linkedInLogo} alt='LinkedIn'/>
             </a>
           </li>
@@ -61,7 +61,7 @@ const AboutMe = () => (
       <div className={styles.submarineImage}></div>
       <div className={styles.container}>
         <p>
-          I currently live in San Francisco, California with my amazing wife <a href="https://www.sashabajzek.com" className={styles.link}>Sasha</a>. I have had the distinct pleasure of living in quite a few parts of the United States throughout my life (most of them during my childhood).
+          I currently live in San Francisco, California with my amazing wife <a href="https://www.sashabajzek.com" className={styles.linkText}>Sasha</a>. I have had the distinct pleasure of living in quite a few parts of the United States throughout my life (most of them during my childhood).
         </p>
         <p>
           Some of the places I have called home over the years are:
