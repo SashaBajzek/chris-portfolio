@@ -1,0 +1,115 @@
+@import '../../styles/variables.scss';
+
+.AboutMe {
+  font-family: $mainFont;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: $max-width;
+  width: 80%;
+}
+
+.heading {
+  font-size: 40px;
+  font-weight: $extraLightWeight;
+  text-align: center;
+}
+
+.section {
+ 
+}
+
+.linkText {
+  color: $medium-blue;
+  font-weight: $semiBoldWeight;
+  text-decoration: none;
+}
+
+.linkText:focus,
+.linkText:hover {
+  color: $white;
+}
+
+.key {
+  color: $medium-blue;
+  font-weight: $semiBoldWeight;
+  padding-right: 3px;
+}
+
+.profileImage {
+  border-radius: 14px;
+  display: block;
+  margin: 50px auto;
+  max-width: 300px;
+  width: 80%;
+}
+
+.sectionMoreInfo {
+  background: $black;
+  margin: 0 auto;
+  padding: 20px 0 0;
+  width: 100vw;
+}
+
+.submarineImage {
+  background: center / cover no-repeat url('./VirginiaApproach-home-sm.f9d9fe49.jpg');
+  height: 200px;
+  margin: 40px auto;
+  max-width: 600px;
+  width: 100%;
+}
+
+.earthImage {
+  background: center / cover no-repeat url('./PlaceholderEarth-Cropped.png');
+  height: 200px;
+  margin: 30px auto 0;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.list {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 10px 0 0;
+}
+
+.link {
+  display: block;
+}
+
+.link:focus,
+.link:hover {
+  background: $teal;
+  box-shadow: 0 0 5px 5px $teal;
+}
+
+.linkImage {
+  height: 40px;
+}
+
+@media (min-width: 575px) {
+  .earthImage {
+    height: 350px;
+    margin: 50px auto 0;
+  }
+}
+
+@media (min-width: 975px) {
+  .submarineImage {
+    background: center / cover no-repeat url(./VirginiaApproach-home-lg.0461e1db.jpg);
+    height: 300px;
+  }
+
+  .listItem img {
+    height: 50px;
+  }
+}
+
+@media (min-width: 1175px) {
+  .earthImage {
+    width: 80%;
+  }
+}
