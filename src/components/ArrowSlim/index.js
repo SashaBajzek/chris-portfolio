@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './ArrowSlim.scss';
 
 const ArrowSlim = () => (
-	<svg version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 200 200" className={styles.ArrowSlim}>
+	<svg  role="presentation"  x="0px" y="0px" viewBox="0 0 200 200" className={styles.ArrowSlim}>
 		<g>
 			<line className={styles.st0} x1="100" y1="25" x2="100" y2="175"/>
 		</g>

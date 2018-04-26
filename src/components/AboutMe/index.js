@@ -4,7 +4,7 @@ import profile from './ChrisProfilePic.jpg';
 import ArrowSlim from '../ArrowSlim';
 
 const AboutMe = () => (
-  <main className={styles.AboutMe}>
+  <div className={styles.AboutMe}>
     <h2 className={styles.heading}>Welcome!</h2>
     <ArrowSlim />
     <img className={styles.profileImage} src={profile} alt='Chris smiling profile' />
@@ -56,7 +56,7 @@ const AboutMe = () => (
       </div>
       <div className={styles.earthImage}></div>
     </section>
-  </main>
+  </div>
 );
 
 export default AboutMe;

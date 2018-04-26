@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './MenuIcon.scss';
 
 const MenuIcon = () => (
-	<svg version="1.1" id="Layer_1"  x="0px" y="0px"
+	<svg role="presentation"  x="0px" y="0px"
 		viewBox="0 0 173.2 200" className={styles.MenuIcon}>
 	<g id="Hex_Base">
 		<g>
