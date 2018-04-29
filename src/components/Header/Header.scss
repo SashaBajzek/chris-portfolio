@@ -1,7 +1,7 @@
 @import '../../styles/variables.scss';
 
 .header {
-  box-shadow: inset 0 150px 1500px -150px $teal;
+  box-shadow: inset 0 100px 100px -100px $teal;
   font-family: $mainFont;
 }
 
@@ -56,5 +56,11 @@
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
+  }
+}
+
+@media (min-width: 500px) {
+  .header {
+    box-shadow: inset 0 150px 200px -150px $teal;
   }
 }
